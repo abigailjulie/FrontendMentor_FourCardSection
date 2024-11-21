@@ -1,0 +1,152 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(250, 250, 250);
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(100, 100, 100);
+}
+
+.contentWrapper {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+  color: rgb(85, 85, 85);
+  text-align: center;
+}
+
+h3 {
+  font-size: 0.9rem;
+  font-weight: 200;
+  text-align: center;
+  padding: 0 0.5rem;
+  color: rgb(100, 100, 100);
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+  color: rgb(85, 85, 85);
+}
+
+p {
+  font-size: 0.8rem;
+  font-weight: 200;
+  line-height: 1.5rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.colorGreen,
+.colorRed,
+.colorOrange,
+.colorBlue {
+  background-color: rgb(255, 255, 255);
+  border-radius: .5rem;
+  padding: 1.5rem 2rem 2rem 2rem;
+  margin: 15px 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.colorGreen {
+  border-top: 0.25rem solid rgb(69, 211, 211);
+}
+
+.colorRed {
+  border-top: 0.25rem solid rgb(234, 83, 83);
+}
+
+.colorOrange {
+  border-top: 0.25rem solid rgb(252, 175, 74);
+}
+
+.colorBlue {
+  border-top: 0.25rem solid rgb(84, 158, 242);
+}
+
+picture {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+img {
+  flex-shrink: 1;
+  max-width: 80%;
+  height: auto;
+}
+
+@media (min-width: 376px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .colorGreen {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .colorRed {
+    grid-column: 2 / 2;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .colorOrange {
+    grid-column: 2 / 2;
+    grid-row: 2;
+  }
+
+  .colorBlue {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .hero h3 {
+    margin: 1rem 31rem 0 31rem;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .colorGreen,
+  .colorRed,
+  .colorOrange,
+  .colorBlue {
+    min-height: 12rem;
+  }
+}
