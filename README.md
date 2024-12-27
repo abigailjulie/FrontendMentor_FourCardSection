@@ -53,10 +53,10 @@ Users should be able to:
 
 ### Useful resources
 
-- (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout) - This MDN page was foundational for my learning.
-- (https://www.youtube.com/@slayingthedragon) - This youtube channel helped me to understand the fundementals.
+- [MDN Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout) - This MDN page was foundational for my learning.
+- [Youtube Grid](https://www.youtube.com/@slayingthedragon) - This youtube channel helped me to understand the fundementals.
 
 ## Author
 
-- [personal website](https://www.abigaildesigns.org)
-- [@abigailjulie](https://www.frontendmentor.io/profile/abigailjulie)
+- Website - [Abigail Figaro](https://www.abigaildesigns.org)
+- Frontend Mentor - [@abigailjulie](https://www.frontendmentor.io/profile/abigailjulie)
